@@ -17,18 +17,16 @@
           "samples": []
         },
         {
-          "name": "GetRemoteDataIntent",
+          "name": "GetTemperatureIntent",
           "slots": [],
           "samples": [
-            "how many people are in space",
-            "how many people are in space now",
-            "how many people are currently in space",
-            "how many humans are in space",
-            "how many humans are in space now",
-            "how many humans are currently in space",
-            "how many astronauts are in space",
-            "how many astronauts are in space now",
-            "how many astronauts are currently in space"
+            "Quelle est la température dans le bureau d'Alain wattier",
+            "Quelle température fait-il dans la cuisine",
+            "Fait-il chaud à la réception",
+            "Fait-il froid dans le bureau du directeur",
+            "Combien de degré y a-t-il dans la cuisne",
+            "Combien de degré il fait dans la cuisine",
+            "Quelle température il y a à la réception"
           ]
         }
       ]

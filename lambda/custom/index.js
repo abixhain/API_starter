@@ -7,7 +7,7 @@ const GetRemoteDataHandler = {
   canHandle(handlerInput) {
     return handlerInput.requestEnvelope.request.type === 'LaunchRequest'
       || (handlerInput.requestEnvelope.request.type === 'IntentRequest'
-      && handlerInput.requestEnvelope.request.intent.name === 'GetRemoteDataIntent');
+      && handlerInput.requestEnvelope.request.intent.name === 'GetTemperatureIntent');
   },
   async handle(handlerInput) {
     let outputSpeech = 'This is the default message.';
@@ -122,4 +122,3 @@ exports.handler = skillBuilder
   )
   .addErrorHandlers(ErrorHandler)
   .lambda();
-

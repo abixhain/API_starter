@@ -17,11 +17,14 @@
       "in_skill_products": [],
       "resources": {
         "manifest": {
-          "eTag": "43f876da40c4fbf57a902cc4edf9453c"
+          "eTag": "7693e92bf3a47f2df8b7b520d5b2c462"
         },
         "interactionModel": {
           "en-US": {
             "eTag": "409311eafefc51caac74a754ad59004e"
+          },
+          "fr-FR": {
+            "eTag": "f652bf2a43fa8791c3b4b24fe2c3c541"
           }
         },
         "lambda": [
@@ -34,7 +37,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-API_Starter-default",
             "handler": "index.handler",
-            "revisionId": "95b2c83d-ed7c-485a-8291-52ea3de89239",
+            "revisionId": "d159d1e4-5ef4-427e-89ca-9060a03b92ae",
             "runtime": "nodejs8.10"
           }
         ]
