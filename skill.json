@@ -2,7 +2,7 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
+        "fr-FR": {
           "summary": "Provides the total number of astronauts who are currently in space.",
           "examplePhrases": [
             "Alexa, ask API Starter how many people are in space",
